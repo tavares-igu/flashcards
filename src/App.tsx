@@ -10,7 +10,6 @@ function App() {
 
   return (
     <>
-      <Menu />
       {/* // <>
       //   <UserProvider>
       //     <BrowserRouter>
