@@ -1,0 +1,59 @@
+.container{
+    position: relative;
+    width: 50vw;
+    height: 80vh;
+    background: #fff;
+}
+
+.container, form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signup{
+    background: #58af9c;
+    color: #fff
+}
+
+input {
+    position: relative;
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #ecf0f1;
+}
+
+.errorMsg{
+    position: relative;
+    font-size: 0.7rem;
+    color: #a33;
+}
+
+.authorized{
+    visibility: hidden;;
+}
+
+button{
+    background: #ddf;
+    position: relative;
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #ecf0f1;
+}
+
+button:hover,
+button:focus{
+    box-shadow: 0 0 5px #888;
+}
+
+h2{
+    position: absolute;
+    top: 50px;
+}

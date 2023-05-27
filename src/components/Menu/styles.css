@@ -1,0 +1,27 @@
+.menuContainer{
+    position: relative;
+    height: 80px;
+    width: 100vw;
+    background: #58af9c;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.menuList{
+    list-style-type: none;
+    display: flex;
+}
+
+.menuList li{
+    margin-left: 30px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.username {
+    position: absolute;
+    right: 50px;
+}
+
