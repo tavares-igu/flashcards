@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore"
+import { getRemoteConfig } from "firebase/remote-config"
 
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -16,6 +17,9 @@ const firebaseConfig = {
 
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
+
+export const remoteConfig = getRemoteConfig(app);
+remoteConfig.settings.minimumFetchIntervalMillis = 15000;
 
 const firestore = getFirestore(app);
 export default firestore;

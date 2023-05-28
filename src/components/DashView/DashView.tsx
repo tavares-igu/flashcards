@@ -1,4 +1,3 @@
-import GetPoints from '../GetPoints/GetPoints'
 import './styles.css'
 
 const DashView = () => {
@@ -6,7 +5,7 @@ const DashView = () => {
 
     return (
     <div className='dashView'>
-        <GetPoints />
+        <span>Aqui fica a DashBoard</span>
     </div>  
     )
 }
