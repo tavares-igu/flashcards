@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import './styles.css'
 import { getAuth } from 'firebase/auth';
-import { updateDoc } from 'firebase/firestore';
 
 type CardProps = {
   "ptBr": string;
