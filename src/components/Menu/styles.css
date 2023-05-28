@@ -28,3 +28,9 @@
     right: 50px;
 }
 
+.signOut{
+    font-weight: bold;
+    color:#af5858;
+    cursor: pointer
+}
+
